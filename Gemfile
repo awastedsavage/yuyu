@@ -15,6 +15,13 @@ end
 # Use sqlite3 as the database for Active Record
 group :development, :test do
   gem 'sqlite3', '~> 1.4'
+
+  gem 'better_errors'
+  gem 'binding_of_caller'
+
+  gem 'rspec-rails'
+  gem 'factory_bot_rails'
+  gem 'fakeweb'
 end
 
 # Use Puma as the app server
